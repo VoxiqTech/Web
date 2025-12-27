@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://voxiqtech.vercel.app/sitemap.xml
+
+# Disallow admin or private directories (add as needed)
+# Disallow: /admin/

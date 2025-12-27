@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>VoxiqTech – Web Development & AI Solutions Company</title>
+
+  <meta name="google-site-verification" content="VYzN7u2UEYcbLfH2Ql_jx63CZ7SENNucnTwtI_if54w" />
+  <!-- SEO Meta -->
+  <meta name="description"
+    content="VoxiqTech offers modern web development, UI/UX design, AI integrations, and scalable digital solutions for businesses worldwide." />
+  <meta name="keywords"
+    content="web development company, UI/UX design services, AI web solutions, SaaS website development, e-commerce development, web applications, VoxiqTech" />
+  <meta name="author" content="VoxiqTech" />
+
+  <!-- Canonical URL (Prevents Duplicate Content) -->
+  <link rel="canonical" href="https://voxiqtech.vercel.app/" />
+
+  <!-- Open Graph / WhatsApp -->
+  <meta property="og:title" content="VoxiqTech – Intelligent Web Solutions" />
+  <meta property="og:description"
+    content="We design and develop fast, scalable, and high-performing websites that help businesses grow." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://voxiqtech.vercel.app/" />
+  <meta property="og:image" content="https://voxiqtech.vercel.app/preview.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+  <!-- Twitter (optional but recommended) -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="VoxiqTech – Intelligent Web Solutions" />
+  <meta name="twitter:description"
+    content="Modern websites, AI integrations, and scalable tech solutions for businesses." />
+  <meta name="twitter:image" content="https://voxiqtech.vercel.app/preview.png" />
+
+  <!-- Assets -->
+  <link rel="stylesheet" href="index.css" />
+  <link rel="icon" href="logo.svg" type="image/svg" />
+
+  <!-- Schema.org Structured Data (JSON-LD) for SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "VoxiqTech",
+    "url": "https://voxiqtech.vercel.app",
+    "logo": "https://voxiqtech.vercel.app/logo.svg",
+    "description": "Intelligent web solutions for modern businesses. We design and develop fast, scalable, and high-performing websites.",
+    "email": "hello@voxiqtech.com",
+    "telephone": "+1-234-567-890",
+    "sameAs": [
+      "https://linkedin.com/company/voxiqtech",
+      "https://x.com/voxiqtech",
+      "https://github.com/voxiqtech"
+    ]
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "VoxiqTech",
+    "image": "https://voxiqtech.vercel.app/logo.svg",
+    "description": "Professional web development and design services including custom websites, e-commerce platforms, and AI integrations.",
+    "priceRange": "$$",
+    "areaServed": "Worldwide",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Web Development Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Web Development",
+            "description": "Custom websites built with modern technologies, optimized for speed, security, and scalability."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "UI/UX Design",
+            "description": "Beautiful, intuitive interfaces designed with your users in mind."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "E-commerce Development",
+            "description": "Complete e-commerce solutions with secure payment integration and inventory management."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "AI Integrations",
+            "description": "Leverage artificial intelligence to enhance your digital presence with chatbots and automation."
+          }
+        }
+      ]
+    }
+  }
+  </script>
+</head>
+
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="navbar-container">
+      <a href="#home" class="navbar-logo">
+        <img src="logo.svg" alt="VoxiqTech Logo" style="height: 40px; width: auto; margin-right: 10px;">
+        Voxiq<span>Tech</span>
+      </a>
+
+      <button class="navbar-toggle" id="navbar-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="navbar-menu" id="navbar-menu">
+        <li><a href="#home" class="navbar-link">Home</a></li>
+        <li><a href="#services" class="navbar-link">Services</a></li>
+        <li><a href="#process" class="navbar-link">Process</a></li>
+        <li><a href="#portfolio" class="navbar-link">Portfolio</a></li>
+        <li><a href="#testimonials" class="navbar-link">Testimonials</a></li>
+        <li><a href="#about" class="navbar-link">About</a></li>
+        <li><a href="#contact" class="navbar-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-grid"></div>
+    <div class="container">
+      <div class="hero-content">
+        <h1 class="hero-title">Intelligent Web Solutions for Modern Businesses</h1>
+        <p class="hero-subtitle">We design and develop fast, scalable, and high-performing websites that help businesses
+          grow.</p>
+        <div class="hero-cta">
+          <a href="#contact" class="btn btn-accent btn-lg">Get Started</a>
+          <a href="#contact" class="btn btn-outline btn-lg">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="section" id="services">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Our Services</h2>
+        <p class="section-subtitle">Comprehensive web solutions tailored to your business needs</p>
+      </div>
+
+      <div class="grid grid-3">
+        <div class="card">
+          <div class="card-icon">🚀</div>
+          <h3 class="card-title">Web Development</h3>
+          <p class="card-description">Custom websites built with modern technologies, optimized for speed, security, and
+            scalability. From simple landing pages to complex web platforms.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">🎨</div>
+          <h3 class="card-title">UI/UX Design</h3>
+          <p class="card-description">Beautiful, intuitive interfaces designed with your users in mind. We create
+            experiences that engage, convert, and delight your audience.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">⚡</div>
+          <h3 class="card-title">Web Applications</h3>
+          <p class="card-description">Powerful, scalable web applications that streamline your business operations.
+            Built with cutting-edge frameworks and best practices.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">🛒</div>
+          <h3 class="card-title">E-commerce Development</h3>
+          <p class="card-description">Complete e-commerce solutions that drive sales. Secure payment integration,
+            inventory management, and seamless shopping experiences.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">🤖</div>
+          <h3 class="card-title">AI Integrations</h3>
+          <p class="card-description">Leverage artificial intelligence to enhance your digital presence. Chatbots,
+            recommendation engines, and intelligent automation.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">📱</div>
+          <h3 class="card-title">Responsive Design</h3>
+          <p class="card-description">Flawless experiences across all devices. Your website will look stunning and
+            function perfectly on desktop, tablet, and mobile.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us Section -->
+  <section class="section section-dark" id="why-choose-us">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Why Choose VoxiqTech</h2>
+        <p class="section-subtitle">We deliver excellence in every project</p>
+      </div>
+
+      <div class="grid grid-4">
+        <div class="card">
+          <div class="card-icon">⚡</div>
+          <h3 class="card-title">Lightning Fast</h3>
+          <p class="card-description">Optimized for speed with cutting-edge performance techniques. Your users will
+            experience blazing-fast load times.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">✨</div>
+          <h3 class="card-title">Premium Quality</h3>
+          <p class="card-description">Meticulous attention to detail in every pixel. We deliver polished, professional
+            solutions that exceed expectations.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">📈</div>
+          <h3 class="card-title">Scalable Solutions</h3>
+          <p class="card-description">Built to grow with your business. Our architecture supports expansion without
+            compromising performance.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">🛡️</div>
+          <h3 class="card-title">Dedicated Support</h3>
+          <p class="card-description">We're here for you every step of the way. Ongoing maintenance, updates, and
+            support to keep you running smoothly.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process Section -->
+  <section class="section section-light" id="process">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Our Process</h2>
+        <p class="section-subtitle">A proven methodology that delivers results</p>
+      </div>
+
+      <div class="process-steps">
+        <div class="process-step">
+          <div class="process-number">1</div>
+          <h3 class="process-title">Discover</h3>
+          <p class="process-description">We dive deep into your business goals, target audience, and project
+            requirements to create a solid foundation.</p>
+        </div>
+
+        <div class="process-step">
+          <div class="process-number">2</div>
+          <h3 class="process-title">Design</h3>
+          <p class="process-description">Our designers craft beautiful, user-centric interfaces that align with your
+            brand and engage your audience.</p>
+        </div>
+
+        <div class="process-step">
+          <div class="process-number">3</div>
+          <h3 class="process-title">Develop</h3>
+          <p class="process-description">Expert developers bring designs to life with clean, efficient code and
+            cutting-edge technologies.</p>
+        </div>
+
+        <div class="process-step">
+          <div class="process-number">4</div>
+          <h3 class="process-title">Deploy</h3>
+          <p class="process-description">We launch your project with thorough testing, optimization, and ongoing support
+            to ensure success.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section class="section" id="portfolio">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Our Work</h2>
+        <p class="section-subtitle">Recent projects that showcase our expertise</p>
+      </div>
+
+      <div class="grid grid-3">
+        <div class="project-card">
+          <img src="project-1.jpg" alt="E-commerce Platform" class="project-image" id="project-img-1" loading="lazy">
+          <div class="project-content">
+            <h3 class="project-title">Modern E-commerce Platform</h3>
+            <p class="project-description">A fully-featured online store with seamless checkout, inventory management,
+              and analytics.</p>
+            <div class="project-tags">
+              <span class="project-tag">E-commerce</span>
+              <span class="project-tag">React</span>
+              <span class="project-tag">Node.js</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="project-2.jpg" alt="SaaS Dashboard" class="project-image" id="project-img-2" loading="lazy">
+          <div class="project-content">
+            <h3 class="project-title">SaaS Analytics Dashboard</h3>
+            <p class="project-description">Real-time data visualization platform with advanced reporting and user
+              management.</p>
+            <div class="project-tags">
+              <span class="project-tag">SaaS</span>
+              <span class="project-tag">Vue.js</span>
+              <span class="project-tag">Python</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="project-3.jpg" alt="Corporate Website" class="project-image" id="project-img-3" loading="lazy">
+          <div class="project-content">
+            <h3 class="project-title">Corporate Website Redesign</h3>
+            <p class="project-description">Professional website with modern design, CMS integration, and multilingual
+              support.</p>
+            <div class="project-tags">
+              <span class="project-tag">Corporate</span>
+              <span class="project-tag">WordPress</span>
+              <span class="project-tag">SEO</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="project-4.jpg" alt="Mobile Banking App" class="project-image" id="project-img-4" loading="lazy">
+          <div class="project-content">
+            <h3 class="project-title">Mobile Banking App</h3>
+            <p class="project-description">Secure and intuitive mobile financial application with real-time transaction
+              tracking.</p>
+            <div class="project-tags">
+              <span class="project-tag">FinTech</span>
+              <span class="project-tag">React Native</span>
+              <span class="project-tag">iOS/Android</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="project-5.jpg" alt="Travel Booking Platform" class="project-image" id="project-img-5"
+            loading="lazy">
+          <div class="project-content">
+            <h3 class="project-title">Travel Booking Platform</h3>
+            <p class="project-description">Comprehensive travel search and booking engine with immersive destination
+              guides.</p>
+            <div class="project-tags">
+              <span class="project-tag">Travel</span>
+              <span class="project-tag">Next.js</span>
+              <span class="project-tag">API</span>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="section section-light" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">What Our Clients Say</h2>
+        <p class="section-subtitle">Trusted by businesses worldwide</p>
+      </div>
+
+      <div class="grid grid-3">
+        <div class="testimonial-card">
+          <p class="testimonial-quote">"VoxiqTech transformed our online presence. The new website is fast, beautiful,
+            and has significantly increased our conversion rates."</p>
+          <p class="testimonial-author">Sarah Johnson</p>
+          <p class="testimonial-role">CEO, TechStart Inc.</p>
+        </div>
+
+        <div class="testimonial-card">
+          <p class="testimonial-quote">"Professional, responsive, and incredibly talented. They delivered exactly what
+            we needed, on time and within budget."</p>
+          <p class="testimonial-author">Michael Chen</p>
+          <p class="testimonial-role">Founder, GrowthLabs</p>
+        </div>
+
+        <div class="testimonial-card">
+          <p class="testimonial-quote">"The team at VoxiqTech is exceptional. Their attention to detail and commitment
+            to quality is unmatched."</p>
+          <p class="testimonial-author">Emily Rodriguez</p>
+          <p class="testimonial-role">Marketing Director, Innovate Co.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section section-dark" id="about">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">About VoxiqTech</h2>
+        <p class="section-subtitle">Building the future of web technology</p>
+      </div>
+
+      <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+        <p
+          style="font-size: var(--text-lg); color: var(--color-gray-300); line-height: 1.8; margin-bottom: var(--space-6);">
+          VoxiqTech is a global web development and technology company dedicated to creating intelligent,
+          high-performing digital solutions. We combine cutting-edge technology with creative design to help businesses
+          establish a powerful online presence.
+        </p>
+        <p
+          style="font-size: var(--text-lg); color: var(--color-gray-300); line-height: 1.8; margin-bottom: var(--space-6);">
+          Our mission is to empower businesses with websites and applications that are not just visually stunning, but
+          also fast, scalable, and built to convert. We believe in transparency, quality, and long-term partnerships.
+        </p>
+        <p style="font-size: var(--text-lg); color: var(--color-gray-300); line-height: 1.8;">
+          With a team of experienced developers, designers, and strategists, we've helped hundreds of businesses achieve
+          their digital goals. Let us help you build something extraordinary.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Get Started Today</h2>
+        <p class="section-subtitle">Ready to transform your digital presence? Let's talk.</p>
+      </div>
+
+      <form class="contact-form" id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+        <!-- Web3Forms Configuration -->
+        <input type="hidden" name="access_key" value="99ce9da2-ef63-492e-ae6d-97e62aa7aa37">
+        <input type="hidden" name="subject" value="New Contact Form Submission - VoxiqTech">
+        <input type="hidden" name="redirect" value="https://voxiqtech.vercel.app/thank-you.html">
+        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+        <div class="form-group">
+          <label for="name" class="form-label">Full Name</label>
+          <input type="text" id="name" name="name" class="form-input" placeholder="Enter your name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email" class="form-label">Email Address</label>
+          <input type="email" id="email" name="email" class="form-input" placeholder="Enter your email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="company" class="form-label">Company Name</label>
+          <input type="text" id="company" name="company" class="form-input" placeholder="Enter your company name">
+        </div>
+
+        <div class="form-group">
+          <label for="message" class="form-label">Project Details</label>
+          <textarea id="message" name="message" class="form-textarea" placeholder="Tell us about your project"
+            required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>VoxiqTech</h4>
+          <p style="color: var(--color-gray-400); line-height: 1.7;">
+            Intelligent web solutions for modern businesses. Building fast, scalable, and high-performing digital
+            experiences.
+          </p>
+        </div>
+
+        <div class="footer-section">
+          <h4>Services</h4>
+          <ul class="footer-links">
+            <li><a href="#services">Web Development</a></li>
+            <li><a href="#services">UI/UX Design</a></li>
+            <li><a href="#services">Web Applications</a></li>
+            <li><a href="#services">E-commerce</a></li>
+            <li><a href="#services">AI Integrations</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h4>Company</h4>
+          <ul class="footer-links">
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#process">Our Process</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h4>Connect</h4>
+          <ul class="footer-links">
+            <li><a href="mailto:hello@voxiqtech.com">hello@voxiqtech.com</a></li>
+            <li><a href="tel:+1234567890">+1 (234) 567-890</a></li>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">GitHub</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 VoxiqTech. All rights reserved. Built with excellence.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
