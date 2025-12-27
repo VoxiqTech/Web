@@ -1,0 +1,21 @@
+{
+    "name": "voxiqtech",
+    "version": "1.0.0",
+    "description": "Intelligent Web Solutions for Modern Businesses",
+    "scripts": {
+        "start": "serve",
+        "deploy": "vercel --prod"
+    },
+    "keywords": [
+        "web development",
+        "agency",
+        "portfolio",
+        "html",
+        "css"
+    ],
+    "author": "VoxiqTech",
+    "license": "ISC",
+    "dependencies": {
+        "serve": "^14.2.0"
+    }
+}
